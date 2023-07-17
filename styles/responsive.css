@@ -1,0 +1,150 @@
+/* Mini-Device Responsive Decoration Starts Here */
+@media screen and (max-width:576px) {
+
+    /* Navbar Responsive Starts Here */
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-item-container {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .nav-container li {
+        margin: 10px 0;
+        display: block;
+    }
+
+    /* Navbar Responsive Ends Here */
+
+    /* Banner Section Decoration Starts Here */
+    .banner-container {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-image {
+        margin-top: 20px;
+    }
+
+    /* Banner Section Decoration Ends Here */
+
+    /* Products Section Decoration Starts Here */
+    .products-list {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    /* Products Section Decoration Ends Here */
+
+    /* Discount Section Decoration Starts Here */
+    .discount-container {
+        grid-template-columns: 1fr;
+    }
+
+    .discount-container .discount-rate img {
+        padding: 15px 5px;
+        width: 100%;
+    }
+
+    .discount-content {
+        padding: 15px 15px;
+        text-align: justify;
+    }
+
+    .discount-rate p {
+        top: 5%;
+        left: 70%;
+    }
+
+    /* Discount Section Decoration Ends Here */
+
+    /* Customer Review Section Decoration Starts Here */
+    .customer-stats {
+        grid-template-columns: 1fr;
+    }
+
+    /* Customer Review Section Decoration Ends Here */
+}
+
+/* Mini-Device Responsive Decoration Ends Here */
+
+/* Maximum-Device Responsive Decoration Starts Here */
+@media screen and (min-width: 576px) and (max-width:992px) {
+
+    /* Navbar Responsive Starts Here */
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-item-container {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .nav-container li {
+        margin: 10px 0;
+        display: block;
+    }
+
+    /* Navbar Responsive Ends Here */
+
+    /* Banner Section Decoration Starts Here */
+    .banner-container {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-image {
+        margin-top: 20px;
+    }
+
+    /* Banner Section Decoration Ends Here */
+
+    /* Products Section Decoration Starts Here */
+    .products-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Products Section Decoration Ends Here */
+
+    /* Discount Section Decoration Starts Here */
+    .discount-container {
+        grid-template-columns: 1fr;
+    }
+
+    .discount-container .discount-rate img {
+        padding: 15px 5px;
+        width: 100%;
+    }
+
+    .discount-content {
+        padding: 15px 15px;
+        text-align: justify;
+    }
+
+    .discount-rate p {
+        top: 5%;
+        left: 70%;
+    }
+
+    /* Discount Section Decoration Ends Here */
+
+    /* Customer Review Section Decoration Starts Here */
+    .customer-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Customer Review Section Decoration Ends Here */
+}
+
+/* Maximum-Device Responsive Decoration Ends Here */
